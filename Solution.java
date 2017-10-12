@@ -7,7 +7,7 @@ import java.util.regex.*;
 public class Solution {
 
     static int birthdayCakeCandles(int n, int[] ar) {
-        // Complete this function
+        
     int count=0;
     int tallest;
     tallest=ar[0];	
@@ -28,8 +28,6 @@ public class Solution {
 
     }
     
-
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
